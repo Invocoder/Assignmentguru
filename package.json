@@ -1,3 +1,4 @@
+
 {
   "name": "text-to-handwriting",
   "version": "1.0.0-rc.1",
@@ -39,5 +40,8 @@
     "hooks": {
       "pre-commit": "npm run prettier && eslint . --fix && npm run eslint"
     }
+  },
+  "dependencies": {
+    "Cypress": "npm:cypress@^4.12.1"
   }
 }
